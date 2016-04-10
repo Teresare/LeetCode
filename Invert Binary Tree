@@ -1,0 +1,16 @@
+struct TreeNode {
+	int val;
+  TreeNode *left;
+  TreeNode *right;
+  TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+ 
+TreeNode* invertTree(TreeNode* root) {
+	if(nullptr == root) 
+		return nullptr;
+	TreeNode *leftNode = root->left;
+	TreeNode *rightNode = root->right;
+	root->left = invertTree(rightNode);
+	root->right = invertTree(leftNode);
+	return root;
+}
