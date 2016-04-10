@@ -1,0 +1,18 @@
+bool isHappy(int n){
+	unordered_map<int, int> imap;
+	while(true){
+		int result = 0;
+		while(0 != n){
+			int temp = n % 10;
+			result += temp * temp;
+			n /= 10;
+		}
+		if(1 == result)
+			return true;
+		if(imap.find(result) == imap.end())
+			imap[result];
+		else
+			break;
+	}
+	return false;
+}
