@@ -1,0 +1,16 @@
+﻿Build started 6/29/2015 9:21:35 PM.
+     1>Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Single_Number_II\Single_Number_II.vcxproj" on node 4 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Single_Number_II.cpp
+         Single_Number_II.cpp
+     1>c:\users\佳强\documents\visual studio 2012\projects\leetcode\single_number_ii\single_number_ii.cpp(29): error C2084: function 'int singleNumber(std::vector<_Ty> &)' already has a body
+                 with
+                 [
+                     _Ty=int
+                 ]
+                 c:\users\佳强\documents\visual studio 2012\projects\leetcode\single_number_ii\single_number_ii.cpp(13) : see previous definition of 'singleNumber'
+     1>Done Building Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Single_Number_II\Single_Number_II.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.94

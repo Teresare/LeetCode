@@ -1,0 +1,13 @@
+﻿Build started 6/29/2015 9:21:35 PM.
+     1>Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Reverse_Nodes_in_k-Group\Reverse_Nodes_in_k-Group.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt "Reverse_Nodes_in_k-Group.cpp"
+         Reverse_Nodes_in_k-Group.cpp
+     1>c:\users\佳强\documents\visual studio 2012\projects\leetcode\reverse_nodes_in_k-group\reverse_nodes_in_k-group.cpp(43): error C2084: function 'ListNode *reverseKGroup(ListNode *,int)' already has a body
+                 c:\users\佳强\documents\visual studio 2012\projects\leetcode\reverse_nodes_in_k-group\reverse_nodes_in_k-group.cpp(22) : see previous definition of 'reverseKGroup'
+     1>c:\users\佳强\documents\visual studio 2012\projects\leetcode\reverse_nodes_in_k-group\reverse_nodes_in_k-group.cpp(51): error C3861: 'reverse': identifier not found
+     1>Done Building Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Reverse_Nodes_in_k-Group\Reverse_Nodes_in_k-Group.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:02.91

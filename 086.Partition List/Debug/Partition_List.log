@@ -1,0 +1,12 @@
+﻿Build started 6/29/2015 9:21:41 PM.
+     1>Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Partition_List\Partition_List.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Partition_List.cpp
+         Partition_List.cpp
+     1>c:\users\佳强\documents\visual studio 2012\projects\leetcode\partition_list\partition_list.cpp(39): error C2084: function 'ListNode *partition(ListNode *,int)' already has a body
+                 c:\users\佳强\documents\visual studio 2012\projects\leetcode\partition_list\partition_list.cpp(18) : see previous definition of 'partition'
+     1>Done Building Project "C:\Users\佳强\documents\visual studio 2012\Projects\LeetCode\Partition_List\Partition_List.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.56
